@@ -1,0 +1,13 @@
+#ejercicio 2: contar vocales en una cadena no importan matusculas ni minusciulas
+texto= "AguaCatE" #no se si tenia q escribirlos asi combinados pero bueno :)
+vocales="aue" #saco las vocales 
+
+print (texto.lower()) #convierte todo en minusucla 
+for letra in texto: #ya aprendí q for es para contar bolitas
+	if letra in vocales: #condicionales creo q se llamaba 
+		contador += 1 # ya sabemos q ese cosito suma +=
+print(contador) #en este caso serian 3
+
+#este ya lo entendí mas :)
+
+
