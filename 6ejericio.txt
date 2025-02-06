@@ -1,0 +1,10 @@
+#ejercicio 6: hacer q de una lista me diga el mayor y el menor
+lista=["1", "2", "5", "7", "9", "16"]
+lista_enteros= ""
+for x in lista: 
+	lista_enteros.append(int(x))	
+maximo=max(lista_enteros)
+minimo=min(lista_eneteros)
+
+print ("numero máximo", maximo)
+print ("numero minimo", minimo)
