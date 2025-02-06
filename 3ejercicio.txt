@@ -1,0 +1,13 @@
+#ejercicio 3 ahora quiere q sea le una palara palíndromo = de izquiera a derecha y derecha a izquierda
+# usaremos una sencilla OSO
+
+palabra= "oSo"  #en vez de usar texto use palabra porq quise probar alguo nuevo
+palabra= palabra.lower() #minusculas 
+palabra_reversa= ""  #esto lo estoy intentando hacer con cadena y cadena inversa jeje en este caso se crea una cadena vacia 
+for character in palabra:   #creamos variables, es como una cajita que guardara cada letra para usar luego en la cadena vacia 
+	palabra_reversa= character+ palabra_reversa  # entonces aquí como va en cadena se supone q la variable coge cada letrica y las pone en la cadena vacia
+
+if palabra== palabra_reversa:  #ya si son la msima palabra :)
+	print("si")
+else:                                       #a veces es mejor usar else en vez de if not y asi ya queda q si no es una cosa queda q no es la otra
+	print ("no") 
