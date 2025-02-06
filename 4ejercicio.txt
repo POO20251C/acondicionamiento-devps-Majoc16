@@ -1,0 +1,10 @@
+#Ejercicio 4 : Tengo una lista de números y hay que invertir el orden de los números, es decir, cambiar el primer número por el último, el segundo por el penúltimo, y así sucesivamente  Ej: 1 2 3 4 5 -->  5 4 3 2 1
+lista= "5 7 8 9 6" #aqui agrego mi lista
+numero= list(map(int, lista.split ())) 
+# el Split me los separa --> 1,2,3, etc
+# el int pasa algo de texto a números, ósea lo hace posible de usar en matemáticas: Entonces, int() convierte las cosas que están escritas como letras ("1", "2", "3") en números que puedes usar en los juegos de matemáticas
+#el map saca digito por digito es como un ayudante que va a abrir cada caja y sacar el juguete que hay dentro, uno por uno, y los pone todos en la cesta/asi como la variable que use en el ejercicio 3
+#el List recoge todos esos números convertidos y los pone en una caja organizada.
+ 
+lista_invertida = numero[::-1] #los reviertelit tal cual
+	print("lista invertida", lista_invertida)
