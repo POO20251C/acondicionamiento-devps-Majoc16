@@ -1,0 +1,4 @@
+#ejercicio 5: Dada una cadena de texto, cuenta la cantidad de palabras que contiene. PALABRAS no letras ej: hola y chao --> 3
+texto="aprendo a programar ja ja" #aqui pongo la frase que usare en el código
+numero_palabras= len(texto.split ()) #ya sirve como for y cue gta las palabras :) 
+print ("numero de palabras", numero_palabras) #en este caso daría 5

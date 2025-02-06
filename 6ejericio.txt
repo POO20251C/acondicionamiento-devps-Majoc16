@@ -1,0 +1,15 @@
+# Ejercicio 6: Encontrar el número mayor y menor en una lista
+
+# lista de número
+lista = ["1", "2", "5", "7", "9", "16"]
+
+# se cinvierte  la lista de strings en enteros usando map()
+lista_enteros = list(map(int, lista))
+
+# El máximo y el mínimo
+maximo = max(lista_enteros)
+minimo = min(lista_enteros)
+
+# Imprimo los resultados
+print("Número máximo:", maximo)
+print("Número mínimo:", minimo)

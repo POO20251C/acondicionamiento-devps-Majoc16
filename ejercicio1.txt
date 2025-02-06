@@ -1,0 +1,9 @@
+#Ejercicio 1: suma de dígitos --> 1+2+3+4
+#pedir un numero 
+n= input ("236") 
+resultadosuma= 0  #al principio vamos con 0 "es como una alcancía vacia" 
+for digito in n:   #el for recorre cada digito del numero, es como contar bolitas de colores de una bolsa
+	resultadosuma += int(digito)   #el +=  es como la función q suma cada digito #el int convierte el "1" de texto a numero para sumar 
+print ("la suma es:", resultadosuma) #en este caso seria 11
+
+#perdon profe estpy muy oxidada hace mucho no veía programación esto es a punta de videos y bastantes explicaciones 
